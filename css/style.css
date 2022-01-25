@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+header {
+    height: 20vh;
+    background-image: url("../img/headers-sant-pere-ribes.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+p {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.fijo {
+    position: fixed;
+}
+
+.column-nav {
+    width: 15%;
+    float: left;
+}
+
+.column-50 {
+    width: 55%;
+    float: left;
+}
+
+.column-noticias {
+    width: 30%;
+    float: left;
+}
+
+iframe {
+    width: 100%;
+}
+
+.video {
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+}
+
+#img-2 {
+    height: 50vh;
+    background-image: url("../img/castillo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-1 {
+    height: 50vh;
+    background-image: url("../img/iglesia.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-3 {
+    height: 50vh;
+    background-image: url("../img/monte.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+article {
+    background-color: rgb(227, 227, 227);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.padding-s {
+    padding: 3%;
+}
+
+.padding-m {
+    padding: 6%;
+}
+
+.back-white {
+    background-color: white;
+}
+
+#imagen {
+    width: 30%;
+    position: relative;
+}
+
+#imagen>div {
+    position: relative;
+    bottom: 50px;
+    color: white;
+    background-color: black;
+    padding: 0% 10%;
+    opacity: 0.5;
+    font-weight: bold;
+}
+
+#imagen>div>a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    .column-3 {
+        width: 100%;
+    }
+    .column-nav {
+        width: 100%;
+    }
+}
